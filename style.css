@@ -1,3 +1,126 @@
 * {
-    background-color: pink;
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    color: rgb(255, 255, 255);
 }
+
+h1 {
+  font-size: 35px;  
+}
+
+h2 {
+  font-size: 15px ;
+}
+
+.header {
+  position:relative;
+  display: flex;
+  }
+
+
+.feature {
+  height: 100vh;
+  background-image: url("./assets/pcfb.jpeg");
+  background-size:cover;
+  background-position: top center;
+  
+}
+
+
+.title {
+  position: absolute;
+  bottom: 3px;
+  left: 50px;
+  border: 20px;
+  border-color: white;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: min-content;
+  width: 40rem;
+}
+
+
+.feature2 {
+  height: 100vh;
+  background-image: url("./assets/bwfacebook.jpeg");
+  background-size:cover;
+  background-position: top center;
+}
+
+
+.title2 {
+  position: relative;
+  /* align-items:end;
+  justify-content: end; */
+  top: 43rem;
+  left: 50px;
+  border: 20px;
+  border-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  height: min-content;
+  width: 40rem;
+}
+
+
+.feature3 {
+  height: 100vh;
+  background-image: url("./assets/promenade_cinema\ Petter\ Duvander.jpeg");
+  background-size:cover;
+  background-position: top center;
+}
+
+
+.title3 {
+  position: relative;
+  top: 47rem;
+  left: 50px;
+  border: 20px;
+  border-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  height: min-content;
+  width: 30rem
+}
+
+.feature4 {
+  height: 100vh;
+  background-image: url("./assets/PClogo.jpg");
+  background-size:cover;
+  background-position: top center;
+}
+
+
+
+.title4 {
+  position: relative;
+  top:5rem;
+  left: 50px;
+  border: 20px;
+  border-color: white;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  height: min-content;
+  width: min-content;
+  align-items: center;
+  justify-content: center
+}
+
+
+
+.footer {
+display: flex;;
+justify-content: center;
+align-items: center;
+font-size: 7px;
+}
+
+
+
